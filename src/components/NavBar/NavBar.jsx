@@ -10,6 +10,7 @@ export const NavBar = ()=> {
         <button className="btn btn-primary mx-2">Home</button>
         <button className= "btn btn-primary mx-2">Vacunas</button>
         <button className="btn btn-primary mx-2">Pastillero</button>
+        <button className="btn btn-primary mx-2">Regístrese</button>
         </div>
       </div>
       <div className="x-smaller d-flex p-0">
