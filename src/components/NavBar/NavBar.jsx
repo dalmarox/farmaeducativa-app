@@ -14,8 +14,12 @@ export const NavBar = ()=> {
         </div>
       </div>
       <div className="x-smaller d-flex p-0">
-          <CartWidget />
-          <p>Usuario</p>
+          <CartWidget/>
+          <p>Carrito</p>
+          
+          
+    
+
           
         </div>
     </nav>

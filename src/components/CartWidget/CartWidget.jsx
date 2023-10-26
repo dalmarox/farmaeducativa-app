@@ -1,10 +1,12 @@
 
-import { BsFillPersonFill } from "react-icons/bs";
+import { BsFillCartFill } from "react-icons/bs";
 
 //import { } from "react-icons/fa";
 
 export const CartWidget = () => {
   return (
-    <BsFillPersonFill color="green" size={25} />
+    <BsFillCartFill color="green" size={25} />
+    
+
   )
 }
