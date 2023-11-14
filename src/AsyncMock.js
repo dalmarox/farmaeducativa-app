@@ -2,48 +2,39 @@
     const products=
     [
         {
-            "id": "1",
-            "titulo": "ADACEL",
-            "imagen": "./imagenes/niños/ADACEL (2).jpg",
-            "descripcion":"Vacuna con toxoide diftérico y tetánico",
-            "categoria": {
-                "nombre": "Vacunas para niños y adolescentes",
-                "id": "niños"
-            },
-            "cantidad": 8
+            id: "1",
+            titulo: "ADACEL",
+            imagen: "./imagenes/niños/ADACEL (2).jpg",
+            descripcion:"Vacuna con toxoide diftérico y tetánico",
+            categoria: "Vacunas para niños y adolescentes",
+            
+            cantidad: 8
         },
         {
-            "id": "2",
-            "titulo": "ISTIVAC E INFLUVAC",
-            "imagen": "./imagenes/adultos/ANTIGRIPALES TETRAVALENTES.png",
-            "descripcion":"Vacunas antigripales tetravalentes",
-            "categoria":{
-                "nombre": "Vacunas para adultos",
-                "id":"adultos"
-            },
-            "cantidad":  18
+            id: "2",
+            titulo: "ISTIVAC E INFLUVAC",
+            imagen: "./imagenes/adultos/ANTIGRIPALES TETRAVALENTES.png",
+            descripcion:"Vacunas antigripales tetravalentes",
+            categoria: "Vacunas para adultos",
+
+            cantidad:  18
         },
         {
-            "id": "3",
-            "titulo": "BUSTRIX",
-            "imagen": "./imagenes/niños/BUSTRIX ACELULAR.jpg",
-            "descripcion": "VACUNA COMBINADA DIFTERIA, TÉTANOS Y PERTUSIS ACELULAR",
-            "categoria":{
-                "nombre":"Vacunas para niños y adolescentes",
-                 "id":"niños"
-            },
-            "cantidad": 9
+            id: "3",
+            titulo: "BUSTRIX",
+            imagen: "./imagenes/niños/BUSTRIX ACELULAR.jpg",
+            descripcion: "VACUNA COMBINADA DIFTERIA, TÉTANOS Y PERTUSIS ACELULAR",
+            categoria:"Vacunas para niños y adolescentes",
+            cantidad: 9
         },
         {
-            "id": "4",
-            "titulo": "GAMMATET T-250",
-            "imagen": "./imagenes/niños/Gammaglobulina-Antitetánica 250.webp",
-            "descripcion": "Gammaglobulina antitetánica 250",
-            "categoria":{
-                "nombre":"Vacunas para niños y adolescentes",
-                "id": "niños"
-            },
-            "cantidad": 3
+            id: "4",
+            titulo: "GAMMATET T-250",
+            imagen: "./imagenes/niños/Gammaglobulina-Antitetánica 250.webp",
+            descripcion: "Gammaglobulina antitetánica 250",
+            categoria:"Vacunas para niños y adolescentes",
+                
+            cantidad: 3
         },
         {
             "id": "5",
