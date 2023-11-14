@@ -9,6 +9,7 @@ export const Item = ({ id, titulo, img, descripcion, categoria}) => {
           <img src={img} alt="" />
           <p className="card-text"> {descripcion} </p>
           <p className="card-text">{categoria}</p>
+        
           <Link to={`/item/${id}`}>
             <button className="btn btn-outline-success">Detalles</button>
           </Link>

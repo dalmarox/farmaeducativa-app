@@ -2,10 +2,6 @@ import { useEffect, useState } from "react";
 import { getProducts } from "../../asyncMock";
 import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { getProducts } from "../../asyncMock";
-import { ItemList } from "../ItemList/ItemList";
-import { useParams } from "react-router-dom";
 
 export const ItemListContainer = ({ greeting }) => {
   const { category } = useParams();
@@ -44,7 +40,7 @@ export const ItemListContainer = ({ greeting }) => {
     </>
   );
 
-    return (
+      return (
         <>
           <div className="container"> {greeting} </div>
           <div className="justify-content-center">

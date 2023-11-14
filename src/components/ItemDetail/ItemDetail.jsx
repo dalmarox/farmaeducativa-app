@@ -1,6 +1,6 @@
 import { ItemCount } from "../ItemCount/ItemCount"
 
-export const ItemDetail = ( {descripcion, price, stock, titulo, img} ) => {
+export const ItemDetail = ( {descripcion, stock, titulo, img, categoria} ) => {
 
   const onAdd = (items) => { 
     alert(`Se agregaron ${items} al carrito`)
@@ -14,10 +14,10 @@ export const ItemDetail = ( {descripcion, price, stock, titulo, img} ) => {
           <img src={img} alt="" />
           <p className="card-text"> {descripcion} </p>
           <p className="card-text">{categoria}</p>
-          <p>Cantidad: {stock} </p>
+          <p>Stock: {stock} </p>
           <ItemCount stock={stock} onAdd={onAdd} />
         </div>
       </div>
     </div>
-  )
-}
+)
+  }
